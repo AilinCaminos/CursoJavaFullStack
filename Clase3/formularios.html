@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <form
+          action="https://formspree.io/mbjzvjjk"
+          method="POST"
+          target="_blank"
+        >
+          <fieldset>
+            <legend>Datos Personales</legend>
+            <label>
+              Nombre
+              <input name="nombre" type="text" required="" />
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Apellido
+              <input name="apellido" type="text" required="" />
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Fecha de Nacimiento
+              <input type="date" name="fecha">
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Correo electrónico
+              <input
+                type="email"
+                name="email"
+                placeholder="xxx@xxx.com"
+                required=""
+              />
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Contraseña 
+              <input type="password" name="password">
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Seleccionar
+              <select>
+                <option>Uno</option>
+                <option>Dos</option>
+                <option>Tres</option>
+              </select>
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Femenino
+              <input type="radio" name="genero"/>
+            </label>
+            <label>
+              Masculino
+              <input type="radio" name="genero"/>
+            </label>
+            <label>
+              Otro
+              <input type="radio" name="genero"/>
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Opcion 1
+              <input type="checkbox" name="opcion"/>
+            </label>
+            <label>
+              Opcion 2
+              <input type="checkbox" name="opcion"/>
+            </label>
+            <label>
+              Opcion 3
+              <input type="checkbox" name="opcion"/>
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Cantidad
+              <input type="number" name="cantidad"/>
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Seleccionar de este rango 
+              <input type="range" max="100" min="10" name="rango"/>
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Semana
+              <input type="week" name="semana"/>
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Hora
+              <input type="time" name="hora"/>
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Seleccionar color
+              <input type="color" name="color">
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Link 
+              <input type="url" name="link"/>
+            </label>
+            <br/>
+            <br/>
+            <label>
+              Seleccionar archivo
+              <input type="file" name="archivo"/>
+            </label>
+            <br/>
+            <br/>
+            <input type="submit" name="submit" />
+            <input type="reset" name="reset" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
