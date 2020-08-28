@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Roboto&family=Roboto+Slab&display=swap");
+/* Selector Universal */
+* {
+}
+/* Selectores de etiqueta */
+h1 {
+  font-family: "Roboto Slab", sans serif;
+}
+h1,
+h3,
+h4 {
+  color: blue;
+}
+/* Selectores de clase */
+.rojo {
+  color: rgb(252, 147, 147);
+  font-size: 32px;
+  font-weight: 800;
+}
+/* Selectores de tipo ID */
+#subtitulo {
+  background-color: #d2fffb;
+}
+.italic {
+  font-style: italic;
+}
+/* Fonts
+font-family: 'Balsamiq Sans', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif; */
+.color {
+  color: rgba(162, 156, 248, 0.931);
+}
+h3 {
+  color: rgba(151, 222, 255, 0.8);
+}
+h4 {
+  color: hsl(22, 100%, 79%);
+}
+.parrafouno {
+  font-size: 1em;
+}
