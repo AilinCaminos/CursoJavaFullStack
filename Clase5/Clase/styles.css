@@ -28,9 +28,34 @@ h1 {
 }
 h3 {
   text-decoration: overline; /* underline | overline underline | line-through */
-  text-decoration-color: rgb(236, 144, 144); /* RGB | RGBA | HSL | HSLA | #XXXXXX */
+  text-decoration-color: rgb(
+    236,
+    144,
+    144
+  ); /* RGB | RGBA | HSL | HSLA | #XXXXXX */
   text-decoration-style: wavy; /* solid | double */
 }
 h4 {
   text-shadow: 1px 2px #eea1a1;
+}
+
+/* Bordes */
+table {
+  border: 2px solid black; /* double | dotted */
+}
+td {
+  border-left: 1px dotted orange;
+  border-right: 1px solid green;
+  border-bottom: 1px double blue;
+  border-top: 1px solid pink;
+}
+button {
+  border-radius: 25px;
+  border: 1px solid red;
+}
+ol li {
+  list-style-type: lower-roman; /* upper-alpha | upper-roman | lower-alpha | none */
+}
+ul li {
+  list-style-type: circle; /* square | disc | none */
 }
